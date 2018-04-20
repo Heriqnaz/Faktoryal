@@ -1,0 +1,25 @@
+<html>
+<hand>
+
+</hand>
+<body>
+<input id="1" type="text">
+<button onclick="newFun()">Faktoryal</button>
+<input id="2" type="text" >
+<script>
+    function newFun(){
+        let y = 1
+        var x = document.getElementById('1').value;
+        for(var i = 1; i<=x; i++){
+        y = y*i;
+    }
+        document.getElementById('2').value = y
+        alert(y);
+    }
+
+
+
+</script>
+
+</body>
+</html>
